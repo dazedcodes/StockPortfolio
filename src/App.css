@@ -29,6 +29,9 @@
   flex-direction: row;
   justify-content: space-around;
 }
+input {
+  height: 20px;
+}
 .addBtn {
   margin: 20px;
   background-color: #7bf01f;
@@ -40,10 +43,32 @@
 .portfolioHeader {
   margin:20px;
 }
-.table-data {
-  border-collapse: separate;
-  border-spacing: 18vh;
+li {
+  list-style: none;
 }
-.table-data th {
-  font-size: 5vh;
+
+p {
+  display: inline;
+  padding: 30px;
+}
+#add-btn {
+  margin: 10px;
+  font-size: calc(4px + 2vmin);
+  background-color: #33AFFF;
+  color: white;
+  border-style: none;
+}
+.edit-btn {
+  margin: 10px;
+  font-size: calc(4px + 2vmin);
+  background-color: #FFBA33;
+  color: white;
+  border-style: none;
+}
+.delete-btn {
+  margin: 10px;
+  font-size: calc(4px + 2vmin);
+  background-color: red;
+  color: white;
+  border-style: none;
 }
